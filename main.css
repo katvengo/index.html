@@ -1,12 +1,12 @@
-body{
+body {
     background-image: url("cork-wallet.png");
-    margin: 0 ;
-    padding: 0 ; 
+    margin: 0;
+    padding: 0;
     color: #553300;
 }
 
 
-.mainbio{
+.mainbio {
     border-radius: 25px;
     background-color: hsla(0, 13%, 69%, 0.1);
     box-shadow: 5px 5px hsla(0, 13%, 69%, 0.1);
@@ -16,7 +16,7 @@ body{
     line-height: 30px;
 }
 
-small{
+small {
     color: #553300;
 }
 
@@ -33,20 +33,66 @@ small{
     position: relative;
     bottom: -130px;
 }
-#three{
+
+#three {
     position: relative;
     bottom: -130px;
 }
 
-#four{
+#four {
     position: relative;
     bottom: -130px;
 }
-#five{
+
+#five {
     position: relative;
     bottom: -130px;
 }
-#six{
+
+#six {
     position: relative;
     bottom: -130px;
 }
+
+.copyright {
+    background-color: hsla(0, 13%, 69%, 0.1);
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #553300;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white
+}
+
+.profileLinks {
+    display: flex;
+    justify-content: center;
+}
+
+#first {
+    padding-right: 20px;
+}
+
+/* #second{
+   
+
+} */
