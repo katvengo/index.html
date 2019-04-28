@@ -92,7 +92,30 @@ a:active {
     padding-right: 20px;
 }
 
-/* #second{
-   
+#second{
+    padding-left: 20px;
 
-} */
+}
+
+#thirdDiv{
+    padding-left: 30px;
+}
+
+#fourthDiv{
+    padding-left: 30px;
+    color: white;
+}
+
+#linkSpacing{
+    margin-bottom: 20px;
+    background-color: #553300;
+    border: #553300  
+}
+
+a.button a:hover{
+    background-color: #553300;
+    border: #553300;
+    color: white;
+    
+}
+
