@@ -1,213 +1,235 @@
 <!DOCTYPE html>
-<html class="h-100">
+<html>
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
+    <!-- <script src="main.js"></script> -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Farsan|Gloria+Hallelujah|Luckiest+Guy|Permanent+Marker|Poiret+One&display=swap"
+        rel="stylesheet">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <!-- <img src ="icons8-super-hero-female-96.png" height ="120px" width ="40px"> -->
+                <h3 style="font-size: 45px;" class="webTitle has-text-black-ter">Kat Vengo</h3>
+            </a>
 
-</head>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light style=" background-color: #e3f2fd;>
-        <h1>Kat Vengo</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="2019Resume.pdf" target="_blank">View Resume</a>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="contact.html">Contact Info</a> -->
-                </li>
-                </li>
-
-            </ul>
+        <div id="navbarBasicExample" class="navbar-menu">
 
         </div>
 
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <div class="navbar-start">
+                        <a class="navbar-item" id="navLink" href="index.html">
+                            About Me
+                        </a>
+                        <a class="navbar-item" id="navLink" href="portfolio.html">
+                            Portfolio
+                        </a>
+                        <a class="navbar-item" id="navLink" href="2019Resume.pdf">
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </nav>
+</head>
 
-</header>
-
-<body class="d-flex flex-column h-100">
-    <main role="main" class="flex-shrink-0">
-        <div>
-            <div class="container">
-                <!--First Row, Contact section-->
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10">
-                        <h2>Portfolio</h2>
-                        <hr>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-
-
-
-                <!--Second Row, 3 columns-->
-                <div class="row">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-3">
-                        <div class="card" style="width: 15rem;">
-                            <img src="mealoffortune.png" class="card-img-top" alt="..." style="height: 10rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Meal Of Fortune</h5>
-                                <!-- <p class="card-text">First group project. My responsibilities included working on the
-                                    javascript and ajax calls.</p> -->
-                                <a href="https://katvengo.github.io/project-1/" class="btn btn-info"
-                                    id="linkSpacing">View</a><br>
-                                <a href="https://github.com/katvengo/project-1" class="btn btn-info"
-                                    id="linkSpacing">Github page</a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card" style="width: 15rem;">
-                            <img src="trainschedule.png" class="card-img-top" alt="..." style="height: 10rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Train Schedule</h5>
-                                <!-- <p class="card-text">This train schedule allows one to add trains and store them in
-                                    firebase. Moment.js was used to compute the times</p> -->
-                                <a href="https://katvengo.github.io/train-project/" class="btn btn-info"
-                                    id="linkSpacing">View</a><br>
-                                <a href="https://github.com/katvengo/train-project" class="btn btn-info"
-                                    id="linkSpacing">Github page</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-3"></div>
-                    
-                </div>
-
-                <!--Third Row, 3 columns-->
-                <div class="row">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-3">
-                        <div class="card" style="width: 15rem;">
-                            <img src="crystalcollector.png" class="card-img-top" alt="..." style="height: 10rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Crystal Collector</h5>
-                                <!-- <p class="card-text">This game is all about collecting crystals. We are given a radom
-                                    number at the start of the game, and random numbers for the value of each crystal.
-                                    In order to win the game we click on a crystal and have to reach the same variable
-                                    on the top as we do on the bottom. Once we win, the game resets.</p> -->
-                                <a href="https://katvengo.github.io/unit-4-game/" class="btn btn-info"
-                                    id="linkSpacing">View</a><br>
-                                <a href="https://github.com/katvengo/unit-4-game" class="btn btn-info"
-                                    id="linkSpacing">Github page</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card" style="width: 15rem;">
-                            <img src="Psychicgame.png" class="card-img-top" alt="..." style="height: 10rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Psychic Game</h5>
-                                <!-- <p class="card-text">Want to test how much of a psychic you are? This is a guessing game
-                                    with the computer.</p> -->
-                                <a href="https://katvengo.github.io/Psychic-Game/" class="btn btn-info"
-                                    id="linkSpacing">View</a><br>
-                                <a href="https://github.com/katvengo/Psychic-Game" class="btn btn-info"
-                                    id="linkSpacing">Github page</a>
-                            </div>
-                        </div>
-                   
-                    </div>
-                    <div class="col-sm-3"></div>
-
-                </div>
-                <!--Fourth Row, 3 columns-->
-                <div class="row">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-3">
-                        <div class="col-sm-3"></div>
-                    <div class="card" style="width: 15rem;">
-                        <img src="Screen Shot 2019-05-04 at 5.35.49 PM.png" class="card-img-top" alt="..." style="height: 10rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Liri Node App</h5>
-                            <!-- <p class="card-text">First group project. My responsibilities included working on the
-                                javascript and ajax calls.</p> -->
-                            <!-- <a href="https://katvengo.github.io/project-1/" class="btn btn-info"
-                                id="linkSpacing">View</a><br> -->
-                            <a href="https://github.com/katvengo/liri-node-app" class="btn btn-info"
-                                id="linkSpacing">Github page</a>
-                        </div>
-
-                    </div>
-                    <div class="card" style="width: 15rem;">
-                        <img src="bamazon.png" class="card-img-top" alt="..." style="height: 10rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Bamazon</h5>
-                            <!-- <p class="card-text">First group project. My responsibilities included working on the
-                                javascript and ajax calls.</p> -->
-                            <!-- <a href="https://katvengo.github.io/project-1/" class="btn btn-info"
-                                id="linkSpacing">View</a><br> -->
-                            <a href="https://github.com/katvengo/bamazon" class="btn btn-info"
-                                id="linkSpacing">Github page</a>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-3"></div>
-                </div>
-
-
-            </div>
-    </main>
-    <footer class="footer mt-auto py-3 copyright">
-        <div class="text-center ">
-            <p><small>Copyright @Katvengo</small></p>
-            <div id="contactMe">
-                <h6>Contact Me</h6>
-            </div>
-            <div class="profileLinks">
-                <div id="first">
-                    <a href="https://github.com/katvengo"><img src="GitHub-Mark-Light-32px.png" width="20">
-
-                    </a>
-                </div>
-                <div id="second">
-                    <a href="https://www.linkedin.com/in/katelynn-vengoechea-b5312746" target="_blank"><img
-                            src="In-White-21.png" width="20">
-                    </a>
-                </div>
-                <div id="thirdDiv">
-                    <a href="mailt::katvengo@gmail.com">katvengo@gmail.com</a> </div>
-                <div id="fourthDiv">951-852-5024</div>
-
-            </div>
+<body>
+    <!--First Column-->
+    <div class="columns is-centered">
+        <div class="column is-8">
+            <h1 id="h1Port">Portfolio</h1>
+            <hr width="800px">
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    </div>
+    <!--Second column, first portfolio piece-->
+    <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Meal Of Fortune</h1>
+            </div>
+            <figure>
+                <img src="mealoffortune.png" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+            First group project. My responsibilities included working on the
+            javascript and ajax calls.
+            <p><br>
+                <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a>
+                <a href="https://github.com/katvengo/project-1" class="button linkSpacing">Github page</a>
+            </p>
+        </div>
+    </div>
+    <!--Third column, first portfolio piece-->
+    <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Liri Node App</h1>
+            </div>
+            <figure>
+                <img src="Screen Shot 2019-05-04 at 5.35.49 PM.png" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+            The Liri-Node-App utilizes several different npms: axios, spotify and moment.
+            Axios takes in information from both OMBD and Bands in Town to look for movies and concerts.
+            Spotify takes in a query for a song and spits it out in the console.
+            <p><br>
+                <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github page</a></div>
+    </div>
+    </div>
+
+    <!--Fourth column, first portfolio piece-->
+    <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Bamazon</h1>
+            </div>
+            <figure>
+                <img src="bamazon.png" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+            Bamazon is a Cli application that interacts with Mysql.
+            It allows you to view products for sale, then select a product and purchase it!
+            <p><br>
+                <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github page</a></div>
+    </div>
+    </div>
+    <!--Fifth column-->
+    <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Crystal Collector</h1>
+            </div>
+            <figure>
+                <img src="crystalcollector.png" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+            This game is all about collecting crystals. We are given a radom number at the start of the game, and random
+            numbers for the value of each crystal.
+            In order to win the game we click on a crystal and have to reach the same variable on the top as we do on
+            the bottom.
+            Once we win, the game resets.
+            <p>
+                <br>
+                <a href="https://katvengo.github.io/unit-4-game/" class="button linkSpacing">View</a>
+                <a href="https://github.com/katvengo/unit-4-game" class="button linkSpacing">Github page</a>
+            </p>
+        </div>
+    </div>
+    <!--Sixth column-->
+    <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Train Schedule</h1>
+            </div>
+            <figure>
+                <img src="trainschedule.png" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+            This train schedule allows one to add trains and store them in
+            firebase. Moment.js was used to compute the times
+            <p>
+                <br>
+                <a href="https://katvengo.github.io/train-project/" class="button linkSpacing">View</a>
+                <a href="https://github.com/katvengo/train-project" class="button linkSpacing">Github page</a>
+            </p>
+        </div>
+    </div>
+    <!--Seventh column-->
+    <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Trivia Game</h1>
+            </div>
+            <figure>
+                <img src="Screen Shot 2019-05-21 at 4.23.37 PM.png" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+            Your basic trivia game. Superhero themed!
+            <p>
+                <br>
+                <a href="https://katvengo.github.io/TriviaGame/" class="button linkSpacing">View</a>
+                <a href="https://github.com/katvengo/TriviaGame" class="button linkSpacing">Github page</a>
+            </p>
+        </div>
+    </div>
+    <!--Eigth column-->
+    <!-- <div class="columns is-centered">
+        <div class="column is-3">
+            <div class="content">
+                <h1 id="portfolio">Friend Finder</h1>
+            </div>
+            <figure>
+                <img src="" height="400px" width="400px">
+            </figure>
+        </div>
+        <div class="column is-5 portfolio">
+               Who needs a datng app when you can find new friends to hang out with?
+            <p>
+                <br>
+                <a href="" class="button linkSpacing">View</a>
+                <a href="" class="button linkSpacing">Github page</a>
+            </p>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Script -->
+    <!-- <script type="text/javascript" src="slideshow.js"></script> -->
+
+
+
 
 </body>
+
+<footer class="footer has-background-black is-size-3">
+    <div class="content has-text-centered has-background-black has-text-white-bis" id="navLink">
+        <div class="columns is-centered">
+            <div class="column is-half">
+                Contact Info<br>
+                <a href="https://github.com/katvengo"><img src="GitHub-Mark-Light-32px.png" width="30">
+                    <a href="https://www.linkedin.com/in/katelynn-vengoechea-b5312746" target="_blank">
+                        <img src="In-White-21.png" width="30">
+                        <br>
+                        <a href="mailt::katvengo@gmail.com" class="navLink">katvengo@gmail.com</a>
+                        <div id="fourthDiv">951-852-5024</div>
+                        <p> <small class="is-size-5">Copyright @Katvengo</small> </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
 
 </html>

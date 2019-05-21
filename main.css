@@ -1,11 +1,13 @@
+
+
 body {
-    background-image: url("cork-wallet.png");
     margin: 0;
     padding: 0;
-    color: #553300;
+    color: black;
+    font-family: 'Caveat', cursive;
 }
 
-
+/*
 .mainbio {
     border-radius: 25px;
     background-color: hsla(0, 13%, 69%, 0.1);
@@ -28,94 +30,75 @@ small {
     color: white;
     text-align: center;
 }
+*/
 
-#two {
-    position: relative;
-    bottom: -130px;
-}
-
-#three {
-    position: relative;
-    bottom: -130px;
-}
-
-#four {
-    position: relative;
-    bottom: -130px;
-}
-
-#five {
-    position: relative;
-    bottom: -130px;
-}
-
-#six {
-    position: relative;
-    bottom: -130px;
-}
-
-.copyright {
-    background-color: hsla(0, 13%, 69%, 0.1);
-    margin: 0;
-    padding: 0;
-   
-
-}
-
-
-a:link {
-    color: white;
-}
-
-/* visited link */
-a:visited {
-    color: white;
-}
-
-/* mouse over link */
-a:hover {
-    color: #553300;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: white
-}
-
-.profileLinks {
-    display: flex;
-    justify-content: center;
-}
-
-#first {
-    padding-right: 20px;
-}
-
-#second{
-    padding-left: 20px;
-
-}
-
-#thirdDiv{
-    padding-left: 30px;
-}
-
-#fourthDiv{
-    padding-left: 30px;
-    color: white;
-}
-
-#linkSpacing{
+ .linkSpacing{
     margin-bottom: 20px;
-    background-color: #553300;
-    border: #553300  
+    background-color: black !important;
+    border: black !important; 
+    color: white !important;
+    font-weight: bold;
+} 
+
+/* New Styles */
+.changeColor {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("gotham.png");
+    background-repeat: no-repeat;
+
 }
 
-a.button a:hover{
-    background-color: #553300;
-    border: #553300;
-    color: white;
-    
+a.linkHover:hover {
+    color: #FF69B4;
+    border: 2px solid #FF69B4;
+    font-weight: bold;
 }
 
+.webTitle {
+    font-family: 'Permanent Marker', cursive;
+    color: #1B4965;
+}
+
+#myButton {
+    font-family: 'Caveat', cursive;
+}
+
+#customFont {
+    font-family: 'Poiret One', cursive;
+}
+#customFontBody {
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(34, 34, 34);
+   
+}
+
+#navLink,
+a.navLink:active,
+a.navLink:link {
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+a.navLink:link{
+    font-family: 'Caveat', cursive;
+    color:white;
+   
+}
+
+.portfolio{
+    text-align: center;
+    padding-top: 65px !important;
+}
+
+#h1Port{
+text-align: left;
+font-family: 'Caveat', cursive;
+font-size: 40px;
+}
+
+#portfolio{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;  
+}
