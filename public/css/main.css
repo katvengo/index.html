@@ -7,6 +7,12 @@ body {
     font-family: 'Caveat', cursive;
 }
 
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 50%;
+  }
+
 /*
 .mainbio {
     border-radius: 25px;
@@ -48,8 +54,7 @@ small {
 }
 
 a.linkHover:hover {
-    color: #FF69B4;
-    border: 2px solid #FF69B4;
+    color: white;
     font-weight: bold;
 }
 
@@ -65,11 +70,20 @@ a.linkHover:hover {
 #customFont {
     font-family: 'Poiret One', cursive;
 }
+
 #customFontBody {
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
     font-size: 22px;
     color: rgb(34, 34, 34);
+   
+}
+
+.customFontBody {
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 22px;
+    color: black;
    
 }
 
