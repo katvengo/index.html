@@ -7,12 +7,6 @@ body {
     font-family: 'Caveat', cursive;
 }
 
-img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    border-radius: 50%;
-  }
-
 /*
 .mainbio {
     border-radius: 25px;
@@ -52,7 +46,11 @@ small {
     background-repeat: no-repeat;
 
 }
-
+#image-bio{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
 a.linkHover:hover {
     color: white;
     font-weight: bold;
