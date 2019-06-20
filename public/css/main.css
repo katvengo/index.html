@@ -1,56 +1,52 @@
-
-
 body {
     margin: 0;
     padding: 0;
     color: black;
     font-family: 'Caveat', cursive;
+    height:100%;
 }
 
-/*
-.mainbio {
-    border-radius: 25px;
-    background-color: hsla(0, 13%, 69%, 0.1);
-    box-shadow: 5px 5px hsla(0, 13%, 69%, 0.1);
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    line-height: 30px;
+@media only screen and (max-device-width: 1366px) {
+    .changeColor {
+        background-attachment: scroll;
+    }
 }
 
-small {
-    color: #553300;
-}
-
-.text-block {
-    width: 200px;
-    height: 35px;
-    background-color: #925a068a;
-    border-style: 1px solid #553300;
-    color: white;
-    text-align: center;
-}
-*/
-
- .linkSpacing{
+.linkSpacing {
     margin-bottom: 20px;
     background-color: black !important;
-    border: black !important; 
+    border: black !important;
     color: white !important;
     font-weight: bold;
-} 
+}
 
 /* New Styles */
 .changeColor {
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/assets/images/gotham.png");
     background-repeat: no-repeat;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
-#image-bio{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+
+#image-bio {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     border-radius: 50%;
 }
+
+#image-icons {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 50%;
+    height: 60px;
+    width: 50px;
+}
+
 a.linkHover:hover {
     color: white;
     font-weight: bold;
@@ -74,7 +70,7 @@ a.linkHover:hover {
     font-weight: bolder;
     font-size: 22px;
     color: rgb(34, 34, 34);
-   
+
 }
 
 .customFontBody {
@@ -82,35 +78,54 @@ a.linkHover:hover {
     font-weight: bolder;
     font-size: 22px;
     color: black;
-   
+
+
+
 }
 
 #navLink,
 a.navLink:active,
 a.navLink:link {
     font-family: 'Caveat', cursive;
+    color: white
+}
+
+a.navLink:link {
+    font-family: 'Caveat', cursive;
+    color: white
+
+}
+
+#navLinkBlack,
+a.navLinkBlack:active,
+a.navLinkBlack:link {
+    font-family: 'Caveat', cursive;
     color: black;
 }
 
-a.navLink:link{
+a.navLinkBlack:link {
     font-family: 'Caveat', cursive;
-    color:white;
-   
+    color: black;
+
 }
 
-.portfolio{
+.portfolio {
     text-align: center;
     padding-top: 65px !important;
 }
 
-#h1Port{
-text-align: left;
-font-family: 'Caveat', cursive;
-font-size: 40px;
+#h1Port {
+    text-align: left;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }
 
-#portfolio{
+#portfolio {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 30px;  
+    font-size: 30px;
+}
+
+.footerMagic{
+    height: 100px !important;
 }

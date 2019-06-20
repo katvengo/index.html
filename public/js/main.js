@@ -1,6 +1,6 @@
 var i = 0;
-var txt = "Hi, I'm a full-stack developer finishing up my 6-month course at UC San Diego Extension Bootcamp. Check out my portfolio to learn more about my projects."
- /* The text */
+var txt = "Welcome! My name is Kat and I am a Full-Stack web developer. Check out my portfolio to view projects I've created."
+/* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
@@ -13,4 +13,13 @@ function typeWriter() {
 
 $(document).ready(function () {
     typeWriter()
+
+    $(".navbar-burger").click(function () {
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+
+    });
+
 })
