@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "express": "^4.17.1",
     "mysql2": "^1.6.5",
-   "sequelize": "^4.44.0"
+    "sequelize": "^4.44.0"
   }
 }

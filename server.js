@@ -6,6 +6,7 @@ var app = express();
 
 var db = require('./models');
 
+
 app.use(express.static('public'));
 
 app.use(express.urlencoded({

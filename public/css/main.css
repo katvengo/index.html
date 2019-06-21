@@ -3,7 +3,7 @@ body {
     padding: 0;
     color: black;
     font-family: 'Caveat', cursive;
-    height:100%;
+    height: 100%;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -28,7 +28,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
+}
+
+.changeColorSkills {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/assets/images/gotham.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
 
 #image-bio {
@@ -38,13 +48,26 @@ body {
     border-radius: 50%;
 }
 
-#image-icons {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    border-radius: 50%;
-    height: 60px;
-    width: 50px;
+.image-icons {
+    height: 70px;
+    width: 60px;
+    margin-left: 5px;
+
+}
+
+#image-iconsNode {
+    height: 70px;
+    width: 90px;
+    margin-right: 15px;
+    
+
+}
+
+#image-iconsSQL {
+    height: 70px;
+    width: 100px;
+    margin-right: 15px;
+
 }
 
 a.linkHover:hover {
@@ -69,8 +92,6 @@ a.linkHover:hover {
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
     font-size: 22px;
-    color: rgb(34, 34, 34);
-
 }
 
 .customFontBody {
@@ -79,8 +100,9 @@ a.linkHover:hover {
     font-size: 22px;
     color: black;
 
-
-
+}
+.customSpacing {
+    padding: 30px;
 }
 
 #navLink,
@@ -90,10 +112,16 @@ a.navLink:link {
     color: white
 }
 
+.yourElement {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
 a.navLink:link {
     font-family: 'Caveat', cursive;
     color: white
-
 }
 
 #navLinkBlack,
@@ -126,6 +154,62 @@ a.navLinkBlack:link {
     font-size: 30px;
 }
 
-.footerMagic{
+.footerMagic {
     height: 100px !important;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+    box-sizing: border-box
+}
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+    /* Full width */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    padding-right: 20px;
+    /* Add bottom padding */
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    /* White text color */
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.html {
+    width: 100%;
+    background-color: rgba(240, 98, 40, 0.5);
+    box-shadow: 2px 2px 2px 2px #d15d2f;
+}
+
+.css {
+    width: 80%;
+    background-color: rgba(38, 77, 228, 0.5);
+    box-shadow: 2px 2px 2px 2px #2642b6;
+}
+
+.js {
+    width: 60%;
+    background-color: rgba(240, 219, 79, 0.5);
+    box-shadow: 2px 2px 2px 2px #ccba42;
+}
+
+.node {
+    width: 65%;
+    background-color: rgba(131, 205, 42, 0.5);
+    box-shadow: 2px 2px 2px 2px #77b32e;
+}
+
+.mysql {
+    width: 60%;
+    background-color: rgba(242, 145, 18, 0.5);
+    box-shadow: 2px 2px 2px 2px #e48810;
 }
