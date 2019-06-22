@@ -1,5 +1,3 @@
-
-
 var i = 0;
 var txt = "Full-Stack Web Developer located in San Diego, CA. Will be availble for work after finishing up UCSD Extension Bootcamp August, 8th 2019"
 /* The text */
@@ -25,20 +23,21 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
 
+    }
 }
 
-}
+
 
 
 
 $(document).ready(function () {
     typeWriter()
-
+   
 })
 
 animateCSS('.languageAnimation', 'fadeInUp')
-    animateCSS('.image-icons', 'fadeInUp')
-    animateCSS('#image-IconTwo', 'fadeInUp')
-    animateCSS('#image-iconThree', 'fadeInUp')
-    animateCSS('#image-iconsNode', 'fadeInUp')
-    animateCSS('#image-iconsSQL', 'fadeInUp')
+animateCSS('.image-icons', 'fadeInUp')
+animateCSS('#image-IconTwo', 'fadeInUp')
+animateCSS('#image-iconThree', 'fadeInUp')
+animateCSS('#image-iconsNode', 'fadeInUp')
+animateCSS('#image-iconsSQL', 'fadeInUp')

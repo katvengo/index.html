@@ -1,256 +1,276 @@
 <!DOCTYPE html>
 <html>
 
-        <head>
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <title>Home</title>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" type="text/css" media="screen" href="/css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-                    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-                <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
-                <script src='https://code.jquery.com/jquery.js'></script>
-                <script src="./js/main.js"></script>
-                <link
-                    href="https://fonts.googleapis.com/css?family=Farsan|Gloria+Hallelujah|Luckiest+Guy|Permanent+Marker|Poiret+One&display=swap"
-                    rel="stylesheet">
-                <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-                    <div class="navbar-brand">
-                        <a class="navbar-item" href="/">
-                            <!-- <img src ="./assets/images/kt-2.png" height ="170px" width ="80px">           </a> -->
-                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                                data-target="navbarBasicExample">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                            </a>
-                    </div>
-            
-                    <div id="navbarBasicExample" class="navbar-menu">
-            
-                    </div>
-            
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <div class="buttons">
-                                <div class="navbar-start">
-                                        <a class="navbar-item is-white" id="navLink" href="/">
-                                            Home
-                                        </a>
-                                        <a class="navbar-item is-white" id="navLink" href="/about.html">
-                                            About Me
-                                        </a>
-                                        <a class="navbar-item is-white" id="navLink" href="/portfolio.html">
-                                            Portfolio
-                                        </a>
-                                        <a class="navbar-item is-white" id="navLink" href="/updatedResume2019.pdf">
-                                            View Resume
-                                        </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </head>
-            
-<body>
-    <!--First Column-->
-    <div class="columns is-centered">
-        <div class="column is-8">
-            <h1 id="h1Port">Portfolio</h1>
-            <hr width="800px">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
+    <script src='https://code.jquery.com/jquery.js'></script>
+    <script src="./js/main.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Farsan|Gloria+Hallelujah|Luckiest+Guy|Permanent+Marker|Poiret+One&display=swap"
+        rel="stylesheet">
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <!-- <img src ="./assets/images/kt-2.png" height ="170px" width ="80px">           </a> -->
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
         </div>
-    </div>
-    <!--First Portfolio Piece-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">CongreGeek</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/congreGeek.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-                <p> CongreGeek is a site for geeks to congregate, when you sign up you choose your favorite superhero, what power you would like to have, and more! 
-                    This site was built with four other collaborators for my second school project. I worked primarily on the back-end, starting up the server using Node.js and Express.
-                    I contributed by creating most of the get and post routes as well as configuring the js files and setting up Passport.js to be able to sign up. 
-                <br>
-                <a href="https://congregeek.herokuapp.com/" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/projectGeek" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Next Column-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Friend Finder</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/friendFinder.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-            Who needs a dating app when you can find new friends to hang out with? Friend Finder is a comptability app that takes in user's survey answers and then matches them up 
-            with the person whose most compatible. This site was created using Node.js and the node package express and deployed using heroku.
-            <p>
-                <br>
-                <a href="https://kat-friendfinder.herokuapp.com/home" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/FriendFinder" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Next Column-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Meal Of Fortune</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/mealoffortune.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-            Tired of finding a place to eat with you and your friends? Me too. That's why we created Meal Of Fortune, it allows you to deselect food categories you don't want, then it spins to give you option within a particular category like 'Thai' or 'Italian' cuisine. My responsibilities included working on the
-            back-end porton of the site with javascript and ajax calls.
-            <p><br>
-                <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/project-1" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Third App-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Burger Creator</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/burgerphoto.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
 
-            This app allows someone to log new Burgers and then "devour" said burgers when they click on the devour
-            button.
-            It was developed using Node.js with Express.js using the MVC pattern with handlebars as the tempating engine.
-            <p><br>
-                <a href="https://kat-burger.herokuapp.com" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/Burger" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Third column, first portfolio piece-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Liri Node App</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/Screen Shot 2019-05-04 at 5.35.49 PM.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-            The Liri-Node-App utilizes several different npms: axios, spotify and moment.js
-            Axios takes in information from both OMBD and Bands in Town to look for movies and concerts.
-            Spotify takes in a query for a song and spits it out in the console.
-            <p><br>
-                <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github page</a></div>
-    </div>
-    </div>
+        <div id="navbarBasicExample" class="navbar-menu">
 
-    <!--Fourth column, first portfolio piece-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Bamazon</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/bamazon.png" height="400px" width="400px">
-            </figure>
         </div>
-        <div class="column is-5 portfolio">
-            Bamazon is a ClI application that interacts with Mysql.
-            It allows you to view products for sale, then select a product and purchase it!
-            <p><br>
-                <a href="https://github.com/katvengo/bamazon" class="button linkSpacing">Github page</a></div>
-    </div>
-    </div>
-    <!--Fifth column-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Crystal Collector</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/crystalcollector.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-            This game is all about collecting crystals. We are given a radom number at the start of the game, and random
-            numbers for the value of each crystal.
-            In order to win the game we click on a crystal and have to reach the same variable on the top as we do on
-            the bottom.
-            Once we win, the game resets.
-            <p>
-                <br>
-                <a href="https://katvengo.github.io/unit-4-game/" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/unit-4-game" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Sixth column-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Train Schedule</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/trainschedule.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-            This train schedule allows one to add trains and store them in
-            firebase. Moment.js was used to compute the times
-            <p>
-                <br>
-                <a href="https://katvengo.github.io/train-project/" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/train-project" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Seventh column-->
-    <div class="columns is-centered">
-        <div class="column is-3">
-            <div class="content">
-                <h1 id="portfolio">Trivia Game</h1>
-            </div>
-            <figure>
-                <img src="./assets/images/Screen Shot 2019-05-21 at 4.23.37 PM.png" height="400px" width="400px">
-            </figure>
-        </div>
-        <div class="column is-5 portfolio">
-            Your basic trivia game. Superhero themed!
-            <p>
-                <br>
-                <a href="https://katvengo.github.io/TriviaGame/" class="button linkSpacing">View</a>
-                <a href="https://github.com/katvengo/TriviaGame" class="button linkSpacing">Github page</a>
-            </p>
-        </div>
-    </div>
-    <!--Eigth column-->
 
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-white" id="navLink" href="/">
+                            Home
+                        </a>
+                        <a class="navbar-item is-white" id="navLink" href="/about.html">
+                            About Me
+                        </a>
+                        <a class="navbar-item is-white" id="navLink" href="/portfolio.html">
+                            Portfolio
+                        </a>
+                        <a class="navbar-item is-white" id="navLink" href="/updatedResume2019.pdf">
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</head>
+
+<body class="changeColorMain">
+    <div class="main">
+        <!--Portfolio-->
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <h1 id="h1Port">Portfolio</h1>
+                <hr width="800px">
+            </div>
+        </div>
+    
+
+
+        <!--First Portfolio Row-->
+        <div class="columns is-centered">
+            <div class="column project">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/congreGeek.png" height="400px" width="400px">
+                    </figure>
+                    <h4 id="portfolio">CongreGeek</h1>
+                        <p> CongreGeek is a site for geeks to congregate, when you sign up you choose your favorite
+                            superhero,
+                            what power you would like to have, and more!
+                            This site was built with four other collaborators for my second school project. I worked
+                            primarily
+                            on the back-end, starting up the server using Node.js and Express.
+                            I contributed by creating most of the get and post routes as well as configuring the js
+                            files
+                            and
+                            setting up Passport.js to be able to sign up.
+                        </p>
+                        <p><a href="https://congregeek.herokuapp.com/" class="button linkSpacing">View</a><br>
+                            <a href="https://github.com/katvengo/projectGeek" class="button linkSpacing">Github page</a>
+                        </p>
+                </div>
+
+            </div>
+
+            <div class="column back">
+                <div class="content ">
+                    <figure>
+                        <img src="./assets/images/friendFinder.png" height="400px" width="400px">
+                    </figure>
+                    <h1 id="portfolio">Friend Finder</h1>
+                    <p>Who needs a dating app when you can find new friends to hang out with? Friend Finder is a
+                        comptability
+                        app that takes in user's survey answers and then matches them up
+                        with the person whose most compatible. This site was created using Node.js and the node package
+                        express
+                        and deployed using heroku.
+                    </p>
+                    <p>
+                        <a href="https://kat-friendfinder.herokuapp.com/home" class="button linkSpacing">View</a><br>
+                        <a href="https://github.com/katvengo/FriendFinder" class="button linkSpacing">Github page</a>
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="column project">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/mealoffortune.png" height="400px" width="400px">
+                    </figure>
+                    <h1 id="portfolio">Meal Of Fortune</h1>
+                    <p>
+                        Tired of finding a place to eat with you and your friends? Me too. That's why we created Meal Of
+                        Fortune, it allows you to deselect food categories you don't want, then it spins to give you
+                        option
+                        within a particular category like 'Thai' or 'Italian' cuisine. My responsibilities included
+                        working
+                        on
+                        the
+                        back-end porton of the site with javascript and ajax calls.
+                    </p><br>
+                    <p>
+                        <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a><br>
+                        <a href="https://github.com/katvengo/project-1" class="button linkSpacing">Github page</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Second Portfolio Row -->
+        <div class="columns is-centered">
+            <div class="column back">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/burgerphoto.png" style="width:100%">
+                    </figure>
+
+                    <h1 id="portfolio">Burger Creator</h1>
+                    <p>
+                        This app allows someone to log new Burgers and then "devour" said burgers when they click on the
+                        devour
+                        button.
+                        It was developed using Node.js with Express.js using the MVC pattern with handlebars as the
+                        tempating
+                        engine.
+                    </p>
+
+                    <p> <a href="https://kat-burger.herokuapp.com" class="button linkSpacing">View</a><br>
+                        <a href="https://github.com/katvengo/Burger" class="button linkSpacing">Github page</a>
+                    </p>
+                </div>
+            </div>
+            <!--Second Picture of Second Row-->
+            <div class="column back">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/Screen Shot 2019-05-04 at 5.35.49 PM.png" style="width:100%">
+                    </figure>
+
+                    <h1 id="portfolio">Liri Node App</h1>
+                    <p>
+                        The Liri-Node-App utilizes several different npms: axios, spotify and moment.js
+                        Axios takes in information from both OMBD and Bands in Town to look for movies and concerts.
+                        Spotify takes in a query for a song and spits it out in the console.
+                    </p>
+
+                    <p>
+                        <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github page</a>
+
+                </div>
+            </div>
+            <!--Third Picture of Second Row-->
+            <div class="column back">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/bamazon.png" style="width:100%">
+                    </figure>
+                    <h1 id="portfolio">Bamazon</h1>
+                    <p>
+                        Bamazon is a ClI application that interacts with Mysql.
+                        It allows you to view products for sale, then select a product and purchase it!</p>
+                    <p>
+                        <a href="https://github.com/katvengo/bamazon" class="button linkSpacing">Github page</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Third Row of Portfolio Page-->
+        <div class="columns is-centered">
+            <div class="column front">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/crystalcollector.png" style="width:100%">
+                    </figure>
+
+                    <h1 id="portfolio">Crystal Collector</h1>
+
+                    <p>
+                        This game is all about collecting crystals. We are given a radom number at the start of the
+                        game,
+                        and random
+                        numbers for the value of each crystal.
+                        In order to win the game we click on a crystal and have to reach the same variable on the top as
+                        we
+                        do on
+                        the bottom.
+                        Once we win, the game resets.
+                    </p>
+
+                    <p>
+                        <br>
+                        <a href="https://katvengo.github.io/unit-4-game/" class="button linkSpacing">View</a>
+                        <a href="https://github.com/katvengo/unit-4-game" class="button linkSpacing">Github page</a>
+                    </p>
+                </div>
+            </div>
+            <!--Second of Third Row-->
+            <div class="column front">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/trainschedule.png" style="width:100%">
+                    </figure>
+                    <h1 id="portfolio">Train Schedule</h1>
+
+                    <p>
+                        This train schedule allows one to add trains and store them in
+                        firebase. Moment.js was used to compute the times
+                    </p>
+                    <p>
+                        <a href="https://katvengo.github.io/train-project/" class="button linkSpacing">View</a><br>
+                        <a href="https://github.com/katvengo/train-project" class="button linkSpacing">Github page</a>
+                    </p>
+
+                </div>
+            </div>
+            <!--Third of Third-->
+            <div class="column front">
+                <div class="content">
+                    <figure>
+                        <img src="./assets/images/Screen Shot 2019-05-21 at 4.23.37 PM.png" height="400px"
+                            width="400px">
+                    </figure>
+                    <h1 id="portfolio">Trivia Game</h1>
+
+                    <p>
+                        Your basic trivia game. Superhero themed!
+                        <p>
+                            <p>
+                                <a href="https://katvengo.github.io/TriviaGame/" class="button linkSpacing">View</a><br>
+                                <a href="https://github.com/katvengo/TriviaGame" class="button linkSpacing">Github
+                                    page</a>
+                            </p>
+                </div>
+            </div>
+        </div>
+        <!--Eigth column-->
+    </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 <footer class="footer has-background-black is-size-6 footerMagic">
-        <div class="content has-text-centered has-background-black has-text-white-bis">
-            <small style="font-family:cursive">Copyright @Katvengo</small>
-            
-        </div>
-    </footer>
+    <small style="font-family:cursive; text-align:center;color: white;">Copyright @Katvengo</small>
+</footer>
 
 </html>
