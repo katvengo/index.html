@@ -58,7 +58,9 @@ body {
         background-color: rgba(242, 145, 18, 0.5);
         box-shadow: 2px 2px 2px 2px #e48810;
     }
-
+.aboutMe{
+height: 100%;
+}
 }
 .linkSpacing {
     margin-bottom: 20px;
