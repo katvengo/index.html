@@ -5,12 +5,6 @@
 }
 
 
-@media only screen and (max-width: 1366px) {
-   body{
-       background-color: red;
-   }
-}
-
 @media only screen and (max-width: 500px){
     .portfolioImages{
         height: 50vh !important;
