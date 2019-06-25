@@ -31,10 +31,12 @@ function typeWriter() {
 
 
 $(document).ready(function () {
-    $(".navBarHidden").hide()
-    $(".burger").click(function(){
-        $(".navBarHidden").toggle()
-    })
+    $(".navbar-burger").click(function() {
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+  
+    });
     typeWriter()
 
 })
