@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -18,17 +17,17 @@
         href="https://fonts.googleapis.com/css?family=Farsan|Gloria+Hallelujah|Luckiest+Guy|Permanent+Marker|Poiret+One&display=swap"
         rel="stylesheet">
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
+        <div class="navbar-brand is-black">
             <a class="navbar-item" href="/">
                 <!-- <img src ="./assets/images/kt-2.png" height ="170px" width ="80px">           </a> -->
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                <a role="button" class="navbar-burger burger " aria-label="menu" aria-expanded="false"
                     data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
         </div>
-
+        <!-- navBarHidden -->
         <div id="navbarBasicExample" class="navbar-menu">
 
         </div>
@@ -57,60 +56,60 @@
 </head>
 
 <body>
-    <div class="changeColor">
-        <section class="hero is-medium">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns is-centered">
-                        <div class="column.is-half">
-                            <img src="./assets/images/katvengo2.jpg" alt="picture of me" id="image-bio" height="100px"
-                                width="120px">
-                        </div>
-                    </div>
-                    <div class="columns is-centered">
-                        <div class="column.is-half" id="customFontBody">
-                            <h1 style="font-size: 25px;" class="webTitle has-text-black-ter">Kat Vengo</h1>
-                        </div>
-                    </div>
-                    <div class="columns is-centered">
-                        <div class="column.is-half" id="customFontBody">
-                            <a href="https://github.com/katvengo"><img src="./assets/images/github-6-48.png" width="30">
-                                <a href="https://www.linkedin.com/in/katvengo" target="_blank">
-                                    <img src="./assets/images/linkedin-4-48.png" width="30">
-                        </div>
-                    </div>
-                    <div class="columns is-centered">
-                        <div class="column.is-half" id="customFontBody">
-                            <a href="mailt::katvengo@gmail.com" class="navLinkBlack">katvengo@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="columns is-centered">
-                        <div class="column is-2"></div>
-                        <div class="column.is-8" id="customFontBody">
-                            <p id="typewriter" class="customFontBody"></p>
-                        </div>
-                        <div class="column is-2"></div>
-                    </div>
+    <div class ="wrapper">
+            <div class="columns is-centered">
+                <div class="column is-2">
+                    <img src="./assets/images/katvengo2.jpg" alt="picture of me" id="image-bio" height="100px"
+                        width="120px" style ="text-align: center; margin-top: 45px;"><br>
+                        <h1 style="font-size: 25px;" class="webTitle has-text-black-ter">Kat Vengo</h1>
+                        <div id="customFontBody">
+                            <a href="https://github.com/katvengo">
+                                <img src="./assets/images/github-6-48.png" width="30"></a>
+                       
+                            <a href="https://www.linkedin.com/in/katvengo" target="_blank">
+                                <img src="./assets/images/linkedin-4-48.png" width="30"></a>
+                       
+                            <a href="https://twitter.com/KatVengo" target="_blank">
+                                <img src="./assets/images/twitterlogo.png" width="30"></a>
 
-                    <!-- <div class="columns is-centered">
-                        <div class="column is-2"></div>
-                        <div class="column.is-8" class="customSpacing">
-                            <div class="button is-medium is-light" onclick="window.location.href = 'about';">Learn More
-                            </div>
-                        </div>
-                        <div class="column is-2"></div>
-                    </div> -->
+                              
+                                
+                         </div>
+                </div>
+                
+            </div>
+            <p id="typewriter" class="customFontBody" style ="text-align: center; padding-bottom: 100px;"></p>
+           
+            <div class="columns is-centered changeColorSkills">
+                <div class="column is-2 is-offset-1 icons">
+                    <!--HTML-->
+                    <img src="assets/images/HTML5_Logo_256.png" class="image-icons">
+                </div>
+                <!--CSS-->
 
+                <div class="column is-2">
+                    <img src="assets/images/CSS3_logo_and_wordmark.svg.png" class="image-icons">
+                </div>
+
+                <!--Javascript-->
+
+                <div class="column is-2">
+                    <img src="assets/images/jslogo.png" class="image-icons">
+                </div>
+
+                <!--Node-->
+                <div class="column is-2">
+                    <img src="assets/images/nodeJSlogo.png" class="image-icons">
+                </div>
+
+                <!--MySQL-->
+                <div class="column is-2">
+                    <img src="assets/images/mysql-170x115.png" class="image-icons">
                 </div>
             </div>
-        </section>
-
-
-    </div>
+        </div>        
 </body>
-
-<footer class="footer has-background-black is-size-6 footerMagic">
-        <small style="font-family:cursive">Copyright @Katvengo</small>
-</footer>
-
+  <footer id = "footerMagic">
+   Copyright @katvengo
+     </footer>
 </html>

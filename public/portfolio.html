@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
     <script src='https://code.jquery.com/jquery.js'></script>
     <script src="./js/main.js"></script>
@@ -55,26 +56,30 @@
     </nav>
 </head>
 
-<body class="changeColorMain">
-    <div class="main">
-        <!--Portfolio-->
-        <div class="columns is-centered">
-            <div class="column is-8">
-                <h1 id="h1Port">Portfolio</h1>
-                <hr width="800px">
+<body>
+    <div class="containerKat">
+        <div class="mainKat">
+            <!--Portfolio-->
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <h1 id="h1Port">Portfolio</h1>
+                    <hr width="800px">
+                </div>
             </div>
-        </div>
-    
-
-
-        <!--First Portfolio Row-->
-        <div class="columns is-centered">
-            <div class="column project">
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/congreGeek.png" height="400px" width="400px">
-                    </figure>
-                    <h4 id="portfolio">CongreGeek</h1>
+            <!--First Portfolio Row-->
+            <div class="columns is-centered">
+                <div class="column">
+                        <h4 id="portfolio">CongreGeek</h1>
+                    <div class="content">
+                        <figure>
+                            <img src="./assets/images/congreGeek.png" class="portfolioImages">
+                            <br>
+                            <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
+                            <img src="./assets/images/mysql-170x115.png" class="image-iconSmall">
+                            <a href="http://www.passportjs.org"><img src="assets/images/passport.js.png"
+                                    class="image-iconSmall"></a>
+                            <img src="assets/images/expressjslogo.png" class="image-iconSmall">
+                        </figure>
                         <p> CongreGeek is a site for geeks to congregate, when you sign up you choose your favorite
                             superhero,
                             what power you would like to have, and more!
@@ -86,42 +91,50 @@
                             and
                             setting up Passport.js to be able to sign up.
                         </p>
-                        <p><a href="https://congregeek.herokuapp.com/" class="button linkSpacing">View</a><br>
-                            <a href="https://github.com/katvengo/projectGeek" class="button linkSpacing">Github page</a>
+                        <p><a href="https://congregeek.herokuapp.com/" class="button linkSpacing">View</a>
+                            <a href="https://github.com/katvengo/projectGeek" class="button linkSpacing">Github
+                                page</a>
                         </p>
                 </div>
-
-            </div>
-
-            <div class="column back">
-                <div class="content ">
+                </div>
+            <div class="column">
+                <h1 id="portfolio">Friend Finder</h1>
+                <div class="content">
                     <figure>
-                        <img src="./assets/images/friendFinder.png" height="400px" width="400px">
+                        <img src="./assets/images/friendFinder.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
+                        <img src="assets/images/herokulogo.png" class="image-iconSmall">
+                        <img src="assets/images/expressjslogo.png" class="image-iconSmall">
                     </figure>
-                    <h1 id="portfolio">Friend Finder</h1>
                     <p>Who needs a dating app when you can find new friends to hang out with? Friend Finder is a
                         comptability
                         app that takes in user's survey answers and then matches them up
-                        with the person whose most compatible. This site was created using Node.js and the node package
+                        with the person whose most compatible. This site was created using Node.js and the node
+                        package
                         express
                         and deployed using heroku.
                     </p>
                     <p>
-                        <a href="https://kat-friendfinder.herokuapp.com/home" class="button linkSpacing">View</a><br>
-                        <a href="https://github.com/katvengo/FriendFinder" class="button linkSpacing">Github page</a>
+                        <a href="https://kat-friendfinder.herokuapp.com/home" class="button linkSpacing">View</a>
+                        <a href="https://github.com/katvengo/FriendFinder" class="button linkSpacing">Github
+                            page</a>
                     </p>
 
                 </div>
-
             </div>
-            <div class="column project">
+            <div class="column">
+                <h1 id="portfolio">Meal Of Fortune</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/mealoffortune.png" height="400px" width="400px">
+                        <img src="./assets/images/mealoffortune.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/jslogo.png" class="image-iconSmall">
+                        <img src="assets/images/jquerylogo.png" class="image-iconSmall">
                     </figure>
-                    <h1 id="portfolio">Meal Of Fortune</h1>
                     <p>
-                        Tired of finding a place to eat with you and your friends? Me too. That's why we created Meal Of
+                        Tired of finding a place to eat with you and your friends? Me too. That's why we created
+                        Meal Of
                         Fortune, it allows you to deselect food categories you don't want, then it spins to give you
                         option
                         within a particular category like 'Thai' or 'Italian' cuisine. My responsibilities included
@@ -131,24 +144,31 @@
                         back-end porton of the site with javascript and ajax calls.
                     </p><br>
                     <p>
-                        <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a><br>
+                        <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a>
                         <a href="https://github.com/katvengo/project-1" class="button linkSpacing">Github page</a>
 
                     </p>
                 </div>
             </div>
-        </div>
+            </div>
+        
         <!-- Second Portfolio Row -->
-        <div class="columns is-centered">
-            <div class="column back">
+        <div class="columns is-multiline is-centered">
+            <div class="column">
+                <h1 id="portfolio">Burger Creator</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/burgerphoto.png" style="width:100%">
-                    </figure>
+                        <img src="./assets/images/burgerphoto.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
+                        <img src="assets/images/expressjslogo.png" class="image-iconSmall">
+                        <img src="assets/images/handlebars.png" class="image-iconSmall">
+                        <img src="./assets/images/mysql-170x115.png" class="image-iconSmall">
 
-                    <h1 id="portfolio">Burger Creator</h1>
+                    </figure>
                     <p>
-                        This app allows someone to log new Burgers and then "devour" said burgers when they click on the
+                        This app allows someone to log new Burgers and then "devour" said burgers when they click on
+                        the
                         devour
                         button.
                         It was developed using Node.js with Express.js using the MVC pattern with handlebars as the
@@ -156,37 +176,44 @@
                         engine.
                     </p>
 
-                    <p> <a href="https://kat-burger.herokuapp.com" class="button linkSpacing">View</a><br>
+                    <p> <a href="https://kat-burger.herokuapp.com" class="button linkSpacing">View</a>
                         <a href="https://github.com/katvengo/Burger" class="button linkSpacing">Github page</a>
                     </p>
                 </div>
             </div>
             <!--Second Picture of Second Row-->
-            <div class="column back">
+            <div class="column">
+                <h1 id="portfolio">Liri Node App</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/Screen Shot 2019-05-04 at 5.35.49 PM.png" style="width:100%">
+                        <img src="./assets/images/Screen Shot 2019-05-04 at 5.35.49 PM.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
+                        <img src="assets/images/jquerylogo.png" class="image-iconSmall">
+                        <img src="assets/images/jslogo.png" class="image-iconSmall">
                     </figure>
 
-                    <h1 id="portfolio">Liri Node App</h1>
                     <p>
                         The Liri-Node-App utilizes several different npms: axios, spotify and moment.js
                         Axios takes in information from both OMBD and Bands in Town to look for movies and concerts.
                         Spotify takes in a query for a song and spits it out in the console.
                     </p>
-
-                    <p>
-                        <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github page</a>
+                        <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github
+                            page</a>
 
                 </div>
             </div>
             <!--Third Picture of Second Row-->
-            <div class="column back">
+            <div class="column">
+                <h1 id="portfolio">Bamazon</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/bamazon.png" style="width:100%">
+                        <img src="./assets/images/bamazon.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
+                        <img src="assets/images/js.png" class="image-iconSmall">
+                        <img src="assets/images/mysql-170x115.png" class="image-iconSmall">
                     </figure>
-                    <h1 id="portfolio">Bamazon</h1>
                     <p>
                         Bamazon is a ClI application that interacts with Mysql.
                         It allows you to view products for sale, then select a product and purchase it!</p>
@@ -197,80 +224,100 @@
             </div>
         </div>
         <!--Third Row of Portfolio Page-->
-        <div class="columns is-centered">
-            <div class="column front">
+        <div class="columns is-multiline is-centered">
+            <div class="column">
+                <h1 id="portfolio">Crystal Collector</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/crystalcollector.png" style="width:100%">
+                        <img src="./assets/images/crystalcollector.png" class="portfolioImages">
+                        <br>
+                        <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" class="image-iconSmall">
+                        <img src="./assets/images/HTML5_Logo_256.png" class="image-iconSmall">
+                        <img src="./assets/images/jslogo.png" class="image-iconSmall">
                     </figure>
-
-                    <h1 id="portfolio">Crystal Collector</h1>
-
                     <p>
                         This game is all about collecting crystals. We are given a radom number at the start of the
                         game,
                         and random
                         numbers for the value of each crystal.
-                        In order to win the game we click on a crystal and have to reach the same variable on the top as
+                        In order to win the game we click on a crystal and have to reach the same variable on the
+                        top as
                         we
                         do on
                         the bottom.
                         Once we win, the game resets.
                     </p>
-
                     <p>
-                        <br>
                         <a href="https://katvengo.github.io/unit-4-game/" class="button linkSpacing">View</a>
                         <a href="https://github.com/katvengo/unit-4-game" class="button linkSpacing">Github page</a>
                     </p>
                 </div>
             </div>
             <!--Second of Third Row-->
-            <div class="column front">
+            <div class="column">
+                <h1 id="portfolio">Train Schedule</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/trainschedule.png" style="width:100%">
+                        <img src="./assets/images/trainschedule.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/HTML5_Logo_256.png" class="image-iconSmall">
+                        <img src="./assets/images/momentjs.png" class="image-iconSmall">
+                        <img src="./assets/images/firebaselogo.png" class="image-iconSmall">
                     </figure>
-                    <h1 id="portfolio">Train Schedule</h1>
 
                     <p>
                         This train schedule allows one to add trains and store them in
                         firebase. Moment.js was used to compute the times
                     </p>
                     <p>
-                        <a href="https://katvengo.github.io/train-project/" class="button linkSpacing">View</a><br>
-                        <a href="https://github.com/katvengo/train-project" class="button linkSpacing">Github page</a>
+                        <a href="https://katvengo.github.io/train-project/" class="button linkSpacing">View</a>
+                        <a href="https://github.com/katvengo/train-project" class="button linkSpacing">Github
+                            page</a>
                     </p>
 
                 </div>
             </div>
             <!--Third of Third-->
-            <div class="column front">
+            <div class="column">
+                <h1 id="portfolio">Trivia Game</h1>
                 <div class="content">
                     <figure>
-                        <img src="./assets/images/Screen Shot 2019-05-21 at 4.23.37 PM.png" height="400px"
-                            width="400px">
+                        <img src="./assets/images/Screen Shot 2019-05-21 at 4.23.37 PM.png" class="portfolioImages">
+                        <br>
+                        <img src="assets/images/HTML5_Logo_256.png" class="image-iconSmall">
+                        <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" class="image-iconSmall">
+                        <img src="assets/images/jslogo.png" class="image-iconSmall">
+                        <img src="assets/images/jquerylogo.png" class="image-iconSmall">
                     </figure>
-                    <h1 id="portfolio">Trivia Game</h1>
-
                     <p>
                         Your basic trivia game. Superhero themed!
-                        <p>
-                            <p>
-                                <a href="https://katvengo.github.io/TriviaGame/" class="button linkSpacing">View</a><br>
-                                <a href="https://github.com/katvengo/TriviaGame" class="button linkSpacing">Github
+                    </p>
+     <a href="https://katvengo.github.io/TriviaGame/" class="button linkSpacing">View</a> 
+      <a href="https://github.com/katvengo/TriviaGame" class="button linkSpacing">Github
                                     page</a>
                             </p>
                 </div>
             </div>
         </div>
-        <!--Eigth column-->
-    </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <div class="columns is-centered">
+                <div class="column is-half">
+                        <h4 id="portfolio">Gitana Adornments</h1>
+                    <div class="content">
+                        <figure>
+                            <img src="./assets/images/gitana.png" class="portfolioImages">
+                        </figure>
+                        <p style="text-align: center"> Designed this business website for a client using Wix. 
+                        <br>
+                        <a href="https://twylamcole.wixsite.com/gitanaadornments" class="button linkSpacing" style="margin-top: 20px;">View</a>
+    </p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
 </body>
-
-<footer class="footer has-background-black is-size-6 footerMagic">
-    <small style="font-family:cursive; text-align:center;color: white;">Copyright @Katvengo</small>
-</footer>
-
+<footer id = "footerMagic">
+        Copyright @katvengo
+          </footer>
 </html>

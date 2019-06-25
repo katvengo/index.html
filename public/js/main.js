@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "Full-Stack Web Developer located in San Diego, CA. Will be availble for work after finishing up UCSD Extension Bootcamp August, 8th 2019"
+var txt = "Full-Stack Web Developer located in San Diego, CA. "
 /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 function animateCSS(element, animationName, callback) {
@@ -31,8 +31,12 @@ function typeWriter() {
 
 
 $(document).ready(function () {
+    $(".navBarHidden").hide()
+    $(".burger").click(function(){
+        $(".navBarHidden").toggle()
+    })
     typeWriter()
-   
+
 })
 
 animateCSS('.languageAnimation', 'fadeInUp')
