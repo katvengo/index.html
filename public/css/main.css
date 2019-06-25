@@ -98,6 +98,12 @@ body {
     border-radius: 50%;
 }
 
+.greyscale {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 .image-icons {
     height: 70px;
     width: 60px;
