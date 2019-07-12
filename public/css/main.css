@@ -5,10 +5,10 @@
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 300px){
     .portfolioImages{
         height: 50vh !important;
-        width: 100vw !important;
+        width: 300vw !important;
     }
 }
 
