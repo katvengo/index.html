@@ -96,6 +96,8 @@ body {
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     border-radius: 50%;
+    height: 120px;
+    width: 120px;
 }
 
 .greyscale {
@@ -148,6 +150,8 @@ body {
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
     font-size: 22px;
+    text-align: center;
+    padding-top: 100px
 }
 
 .customFontBody {
