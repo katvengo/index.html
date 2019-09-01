@@ -53,292 +53,255 @@
               </nav>
 </head>
 <body>
-    <div class="containerKat">
-        <div class="mainKat">
-            <!--Portfolio-->
-            <div class="columns is-centered">
-                <div class="column is-8">
-                    <h1 id="h1Port">Portfolio</h1>
-                    <hr width="800px">
+<div id="portfolio">Portfolio</div>
+<!--New slideshow here-->
+<!-- Container for the image gallery -->
+<div class="containerKat"> 
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column portfolioColumn">
+                <div class="numbertext">1 / 7</div>
+              <img src="./assets/images/pbo.png" class="portfolioImages">
                 </div>
+              <div class="column portfolioColumn">
+             <div class="portfolioDivs"><h4>P.B Ohrstrom & Son's</h4>
+            <br>
+            <p> Website for a client using HTML, CSS and some javascript with the Bulma framework.
+                </p>
+                <p><a href="http://pbohrstrom.com/" class="button linkSpacing">View</a>
+                 
+                </p>
+             </div>
+              </div>
             </div>
-            <!--First Portfolio Row-->
-            <div class="columns is-centered">
-                <div class="column">
-                        <h4 id="portfolio">CongreGeek</h1>
-                    <div class="content">
-                        <figure>
-                            <img src="./assets/images/congreGeek.png" class="portfolioImages">
-                            <br>
-                            <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
-                            <img src="./assets/images/mysql-170x115.png" class="image-iconSmall">
-                            <a href="http://www.passportjs.org"><img src="assets/images/passport.js.png"
-                                    class="image-iconSmall"></a>
-                            <img src="assets/images/expressjslogo.png" class="image-iconSmall">
-                        </figure>
-                        <p> CongreGeek is a site for geeks to congregate, when you sign up you choose your favorite
-                            superhero,
-                            what power you would like to have, and more!
-                            This site was built with four other collaborators for my second school project. I worked
-                            primarily
-                            on the back-end, starting up the server using Node.js and Express.
-                            I contributed by creating most of the get and post routes as well as configuring the js
-                            files
-                            and
-                            setting up Passport.js to be able to sign up.
+            </div>
+
+            <div class="mySlides">
+                    <div class="columns is-multiline is-mobile">   
+                    <div class="column portfolioColumn">
+                    <div class="numbertext">2 / 7</div>
+                  <img src="./assets/images/scrape.png" class="portfolioImages">
+                    </div>
+                  <div class="column portfolioColumn">
+                 <div class="portfolioDivs"><h4>Article Scraper</h4>
+                <br>
+                <p>  This article scraper will allow a person to scrape articles directly from AP news and load them onto the site. There you can favorite articles!
+                    </p>
+                    <p>
+                            <a href="https://katvengo-scrapearticles.herokuapp.com" class="button linkSpacing" style="margin-top: 20px;">View site</a>
+                            <a href="https://github.com/katvengo/scrapearticles" class="button linkSpacing" style="margin-top: 20px;">Github</a>
+                    </p>
+                 </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="mySlides">
+                        <div class="columns is-multiline is-mobile">   
+                        <div class="column portfolioColumn">
+                        <div class="numbertext">3 / 7</div>
+                      <img src="./assets/images/googleBooksearch.png" class="portfolioImages">
+                        </div>
+                      <div class="column portfolioColumn">
+                     <div class="portfolioDivs"><h4>Google Book Search</h4>
+                    <br>
+                    <p> Google Book search allows you to search for a book to view its title, description, author and a link to the book using Google's API. It was built using ReactJS.
                         </p>
-                        <p><a href="https://congregeek.herokuapp.com/" class="button linkSpacing">View</a>
-                            <a href="https://github.com/katvengo/projectGeek" class="button linkSpacing">Github
+                        <p><a href="https://katvengo-googlebooksearch.herokuapp.com/" class="button linkSpacing">View</a>
+                            <a href="https://github.com/katvengo/googlebooksearch" class="button linkSpacing">Github
                                 page</a>
                         </p>
-                </div>
-                </div>
-            <div class="column">
-                <h1 id="portfolio">Friend Finder</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/friendFinder.png" class="portfolioImages">
-                        <br>
-                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
-                        <img src="assets/images/herokulogo.png" class="image-iconSmall">
-                        <img src="assets/images/expressjslogo.png" class="image-iconSmall">
-                    </figure>
-                    <p>Who needs a dating app when you can find new friends to hang out with? Friend Finder is a
-                        comptability
-                        app that takes in user's survey answers and then matches them up
-                        with the person whose most compatible. This site was created using Node.js and the node
-                        package
-                        express
-                        and deployed using heroku.
-                    </p>
-                    <p>
-                        <a href="https://kat-friendfinder.herokuapp.com/home" class="button linkSpacing">View</a>
-                        <a href="https://github.com/katvengo/FriendFinder" class="button linkSpacing">Github
-                            page</a>
-                    </p>
+                     </div>
+                      </div>
+                    </div>
+                    </div>
 
-                </div>
-            </div>
-            <div class="column">
-                <h1 id="portfolio">Meal Of Fortune</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/mealoffortune.png" class="portfolioImages">
-                        <br>
-                        <img src="assets/images/jslogo.png" class="image-iconSmall">
-                        <img src="assets/images/jquerylogo.png" class="image-iconSmall">
-                    </figure>
-                    <p>
-                        Tired of finding a place to eat with you and your friends? Me too. That's why we created
-                        Meal Of
-                        Fortune, it allows you to deselect food categories you don't want, then it spins to give you
-                        option
-                        within a particular category like 'Thai' or 'Italian' cuisine. My responsibilities included
-                        working
-                        on
-                        the
-                        back-end porton of the site with javascript and ajax calls.
-                    </p><br>
-                    <p>
-                        <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a>
-                        <a href="https://github.com/katvengo/project-1" class="button linkSpacing">Github page</a>
 
-                    </p>
-                </div>
+        <div class="mySlides">
+            <div class="columns is-multiline is-mobile">   
+            <div class="column portfolioColumn">
+            <div class="numbertext">4 / 7</div>
+          <img src="./assets/images/congreGeek.png" class="portfolioImages">
             </div>
-            </div>
-        
-        <!-- Second Portfolio Row -->
-        <div class="columns is-multiline is-centered">
-            <div class="column">
-                <h1 id="portfolio">Burger Creator</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/burgerphoto.png" class="portfolioImages">
-                        <br>
-                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
-                        <img src="assets/images/expressjslogo.png" class="image-iconSmall">
-                        <img src="assets/images/handlebars.png" class="image-iconSmall">
-                        <img src="./assets/images/mysql-170x115.png" class="image-iconSmall">
-
-                    </figure>
-                    <p>
-                        This app allows someone to log new Burgers and then "devour" said burgers when they click on
-                        the
-                        devour
-                        button.
-                        It was developed using Node.js with Express.js using the MVC pattern with handlebars as the
-                        tempating
-                        engine.
-                    </p>
-
-                    <p> <a href="https://kat-burger.herokuapp.com" class="button linkSpacing">View</a>
-                        <a href="https://github.com/katvengo/Burger" class="button linkSpacing">Github page</a>
-                    </p>
-                </div>
-            </div>
-            <!--Second Picture of Second Row-->
-            <div class="column">
-                <h1 id="portfolio">Liri Node App</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/Screen Shot 2019-05-04 at 5.35.49 PM.png" class="portfolioImages">
-                        <br>
-                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
-                        <img src="assets/images/jquerylogo.png" class="image-iconSmall">
-                        <img src="assets/images/jslogo.png" class="image-iconSmall">
-                    </figure>
-
-                    <p>
-                        The Liri-Node-App utilizes several different npms: axios, spotify and moment.js
-                        Axios takes in information from both OMBD and Bands in Town to look for movies and concerts.
-                        Spotify takes in a query for a song and spits it out in the console.
-                    </p>
-                        <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github
-                            page</a>
-
-                </div>
-            </div>
-            <!--Third Picture of Second Row-->
-            <div class="column">
-                <h1 id="portfolio">Bamazon</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/bamazon.png" class="portfolioImages">
-                        <br>
-                        <img src="assets/images/nodeJSlogo.png" class="image-iconSmall">
-                        <img src="assets/images/js.png" class="image-iconSmall">
-                        <img src="assets/images/mysql-170x115.png" class="image-iconSmall">
-                    </figure>
-                    <p>
-                        Bamazon is a ClI application that interacts with Mysql.
-                        It allows you to view products for sale, then select a product and purchase it!</p>
-                    <p>
-                        <a href="https://github.com/katvengo/bamazon" class="button linkSpacing">Github page</a>
-                    </p>
-                </div>
-            </div>
+          <div class="column portfolioColumn">
+         <div class="portfolioDivs"><h4>CongreGeek</h4>
+        <br>
+        <p> CongreGeek is a site for geeks. My role as the back-end developer was to spin up the server using Node.js and Express.
+                I contributed by creating most of the get and post routes as well as configuring the js
+                files and setting up Passport.js for authentication.
+            </p>
+            <p><a href="https://congregeek.herokuapp.com/" class="button linkSpacing">View</a>
+                <a href="https://github.com/katvengo/projectGeek" class="button linkSpacing">Github
+                    page</a>
+            </p>
+         </div>
+          </div>
         </div>
-        <!--Third Row of Portfolio Page-->
-        <div class="columns is-multiline is-centered">
-            <div class="column">
-                <h1 id="portfolio">Crystal Collector</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/crystalcollector.png" class="portfolioImages">
-                        <br>
-                        <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" class="image-iconSmall">
-                        <img src="./assets/images/HTML5_Logo_256.png" class="image-iconSmall">
-                        <img src="./assets/images/jslogo.png" class="image-iconSmall">
-                    </figure>
-                    <p>
-                        This game is all about collecting crystals. We are given a radom number at the start of the
-                        game,
-                        and random
-                        numbers for the value of each crystal.
-                        In order to win the game we click on a crystal and have to reach the same variable on the
-                        top as
-                        we
-                        do on
-                        the bottom.
-                        Once we win, the game resets.
-                    </p>
-                    <p>
-                        <a href="https://katvengo.github.io/unit-4-game/" class="button linkSpacing">View</a>
-                        <a href="https://github.com/katvengo/unit-4-game" class="button linkSpacing">Github page</a>
-                    </p>
+        </div>
+        <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column">
+          <div class="numbertext">5 / 7</div>
+            <img src="./assets/images/friendFinder.png" style="width:75%;" class="portfolioImages">
                 </div>
-            </div>
-            <!--Second of Third Row-->
             <div class="column">
-                <h1 id="portfolio">Train Schedule</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/trainschedule.png" class="portfolioImages">
+                    <div class="portfolioDivs">Friend Finder
                         <br>
-                        <img src="assets/images/HTML5_Logo_256.png" class="image-iconSmall">
-                        <img src="./assets/images/momentjs.png" class="image-iconSmall">
-                        <img src="./assets/images/firebaselogo.png" class="image-iconSmall">
-                    </figure>
-
-                    <p>
-                        This train schedule allows one to add trains and store them in
-                        firebase. Moment.js was used to compute the times
-                    </p>
-                    <p>
-                        <a href="https://katvengo.github.io/train-project/" class="button linkSpacing">View</a>
-                        <a href="https://github.com/katvengo/train-project" class="button linkSpacing">Github
-                            page</a>
-                    </p>
-
-                </div>
-            </div>
-            <!--Third of Third-->
-            <div class="column">
-                <h1 id="portfolio">Trivia Game</h1>
-                <div class="content">
-                    <figure>
-                        <img src="./assets/images/Screen Shot 2019-05-21 at 4.23.37 PM.png" class="portfolioImages">
-                        <br>
-                        <img src="assets/images/HTML5_Logo_256.png" class="image-iconSmall">
-                        <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" class="image-iconSmall">
-                        <img src="assets/images/jslogo.png" class="image-iconSmall">
-                        <img src="assets/images/jquerylogo.png" class="image-iconSmall">
-                    </figure>
-                    <p>
-                        Your basic trivia game. Superhero themed!
-                    </p>
-     <a href="https://katvengo.github.io/TriviaGame/" class="button linkSpacing">View</a> 
-      <a href="https://github.com/katvengo/TriviaGame" class="button linkSpacing">Github
+                        <p>Who needs a dating app when you can find new friends to hang out with? Friend Finder is a
+                                comptability app that takes in user's survey answers and then matches them up
+                                with the person whose most compatible. This site was created using Node.js and the node
+                                package express and deployed using heroku.
+                            </p>
+                            <p>
+                                <a href="https://kat-friendfinder.herokuapp.com/home" class="button linkSpacing">View</a>
+                                <a href="https://github.com/katvengo/FriendFinder" class="button linkSpacing">Github
                                     page</a>
                             </p>
-                </div>
-            </div>
+                    </div>
+                    </div>
         </div>
-            <div class="columns is-centered">
-                <div class="column">
-                        <h4 id="portfolio">Gitana Adornments</h1>
-                    <div class="content">
-                        <figure>
-                            <img src="./assets/images/gitana.png" class="portfolioImages">
-                        </figure>
-                        <p style="text-align: center"> Designed this business website for a client using Wix. 
-                        <br>
-                        <a href="https://twylamcole.wixsite.com/gitanaadornments" class="button linkSpacing" style="margin-top: 20px;">View</a>
-    </p>
-                </div>
-                </div>
-                <div class="column ">
-                        <h4 id="portfolio">P.B Ohrstrom & Son's</h1>
-                    <div class="content">
-                        <figure>
-                            <img src="./assets/images/pbo.png" class="portfolioImages">
-                        </figure>
-                        <p style="text-align: center"> Designed this business website for a client using HTML, CSS and some javascript with the Bulma framework. 
-                        <br>
-                        <a href="http://pbohrstrom.com/" class="button linkSpacing" style="margin-top: 20px;">View</a>
-    </p>
-                </div>
-                </div>
-                <div class="column ">
-                        <h4 id="portfolio">Scraper for Articles</h1>
-                    <div class="content">
-                        <figure>
-                            <img src="./assets/images/scrape.png" class="portfolioImages">
-                        </figure>
-                        <p style="text-align: center"> This article scraper will allow a person to scrape articles directly from AP news and load them onto the site. There you can favorite articles! 
-                        <br>
-                        <a href="https://katvengo-scrapearticles.herokuapp.com" class="button linkSpacing" style="margin-top: 20px;">View site</a>
-                        <a href="https://github.com/katvengo/scrapearticles" class="button linkSpacing" style="margin-top: 20px;">Github</a>
-    </p>
-                </div>
-                </div>
-            </div>
+        </div>
 
+        <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column">
+          <div class="numbertext">6 / 7</div>
+            <img src="./assets/images/mealoffortune.png" style="width:75%;" class="portfolioImages">
+                </div>
+            <div class="column">
+                    <div class="portfolioDivs">Meal of Fortune
+                        <br>
+                        <p>
+                                Tired of finding a place to eat with you and your friends? Meal Of
+                                Fortune helps by giving you a list of restaurants nearby.
+                                I was responsible for the back-end development using javascript, and connecting to Yelp API with ajax calls.
+                            </p><br>
+                            <p>
+                                <a href="https://katvengo.github.io/project-1/" class="button linkSpacing">View</a>
+                                <a href="https://github.com/katvengo/project-1" class="button linkSpacing">Github page</a>
+        
+                            </p>
+                    </div>
+                    </div>
         </div>
         </div>
+        <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column">
+          <div class="numbertext"> 7/ 7</div>
+            <img src="./assets/images/gitana.png" style="width:75%;" class="portfolioImages">
+                </div>
+            <div class="column">
+                    <div class="portfolioDivs">Gitana Adornments
+                        <br>
+                        <p>
+                               Used the Wix system to design a jewelry page for a client 
+                            </p><br>
+                            <p>
+                                <a href="https://twylamcole.wixsite.com/gitanaadornments" class="button linkSpacing">View</a>        
+                            </p>
+                    </div>
+                    </div>
+        </div>
+        </div>
+
+        <!-- <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column">
+          <div class="numbertext">4 / 6</div>
+            <img src="./assets/images/burgerphoto.png" style="width:75%;" class="portfolioImages">
+                </div>
+            <div class="column">
+                    <div class="portfolioDivs">Burger time!
+                        <br>
+                        <p>
+                                This app allows someone to log new Burgers and then "devour" said burgers when they click on
+                                the devour button. It was developed using Node.js with Express.js using the MVC pattern with handlebars for
+                                templating.
+                            </p>
+        
+                            <p> <a href="https://kat-burger.herokuapp.com" class="button linkSpacing">View</a>
+                                <a href="https://github.com/katvengo/Burger" class="button linkSpacing">Github page</a>
+                            </p>
+                    </div>
+                    </div>
+        </div>
+        </div> -->
+
+        <!-- <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column">
+          <div class="numbertext">5 / 6</div>
+            <img src="./assets/images/Screen Shot 2019-05-04 at 5.35.49 PM.png" style="width:75%;" class="portfolioImages">
+                </div>
+            <div class="column">
+                    <div class="portfolioDivs">Liri Bot
+                        <br>
+                        <p>
+                                The Liri-Node-App utilizes several different npms: axios, spotify and moment.js
+                                Axios takes in information from both OMBD and Bands in Town to look for movies and concerts.
+                                Spotify takes in a query for a song and spits it out in the console.
+                            </p>
+                                <a href="https://github.com/katvengo/liri-node-app" class="button linkSpacing">Github
+                                    page</a>
+                    </div>
+                    </div>
+        </div>
+        </div> -->
+        <!-- <div class="mySlides">
+                <div class="columns is-multiline is-mobile">   
+                <div class="column">
+          <div class="numbertext">6 / 6</div>
+            <img src="./assets/images/bamazon.png" style="width:75%;" class="portfolioImages">
+                </div>
+            <div class="column">
+                    <div class="portfolioDivs">Bamazon<br>
+                        <p>
+                                Bamazon is a ClI application that interacts with Mysql.
+                                It allows you to view products for sale, then select a product and purchase it!</p>
+                            <p>
+                                <a href="https://github.com/katvengo/bamazon" class="button linkSpacing">Github page</a>
+                            </p></div>
+                    </div>
+        </div>
+        </div> -->
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="columns">
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/pbo.png" style="height: 40px; width: 55px;" onclick="currentSlide(1)" alt="P.B Ohrstrom & Son's">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/scrape.png" style="height: 40px; width: 55px;" onclick="currentSlide(1)" alt="Article Scraper">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/googleBooksearch.png" style="height: 40px; width: 55px;" onclick="currentSlide(1)" alt="Google Book Search">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/congreGeek.png" style="height: 40px; width: 55px;" onclick="currentSlide(1)" alt="CongreGeek">
+          </div>
+          <div class="column"> 
+            <img class="demo cursor" src="./assets/images/friendFinder.png" style="height: 40px; width: 55px;" onclick="currentSlide(2)" alt="Friend Finder">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/mealoffortune.png" style="height: 40px; width: 55px;" onclick="currentSlide(3)" alt="Meal Of Fortune">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/gitana.png" style="height: 40px; width: 55px;" onclick="currentSlide(3)" alt="Gitana Adornments">
+          </div>
+        </div>
+      </div>
+    <!--End of new slideshow here-->
+
 </body>
-<footer id = "footerMagic">
-        Copyright @katvengo
-          </footer>
 </html>

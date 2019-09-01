@@ -34,7 +34,7 @@ body {
 } 
 
 .containerKat {
-    min-height: 100% !important;
+    min-height: 20% !important;
 }
 
 .mainKat {
@@ -60,7 +60,7 @@ body {
     height: 350px !important;
     overflow: scroll !important;
     border-radius: 20px;
-    border: 1px solid black;
+   border: 1px solid black;
 }
 
 .linkSpacing {
@@ -127,11 +127,22 @@ body {
     width: 70px;
 }
 
-.portfolioImages {
-    width: 30vw;
-    height: 25vh;
-}
 
+.portfolioDivs{
+    max-height: 35vh;
+    overflow: scroll;
+} 
+
+.portfolioColumn{
+    max-height: 70%;
+    max-width: 50%;
+    
+}
+.portfolioImages{
+  height: 100%;
+  width: 100%;
+
+}
 
 .webTitle {
     font-family: 'Permanent Marker', cursive;
@@ -215,7 +226,8 @@ a.navLinkBlack:link {
 #portfolio {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
+    font-size: 50px;
+    padding-top: 0.5%;
 }
 
 #footerMagic {
@@ -233,3 +245,95 @@ a.navLinkBlack:link {
     padding-top: 50px;
    
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .containerKat {
+    position: relative;
+    padding-top: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 7%;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    min-height: 20%;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
