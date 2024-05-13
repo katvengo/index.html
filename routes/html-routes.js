@@ -16,4 +16,8 @@ module.exports = function (app) {
     app.get('/css', function (req, res) {
         res.sendFile(path.join(__dirname, '../public/css/main.css'));
     });
+
+    app.get('/js', function (req, res) {
+        res.sendFile(path.join(__dirname, '../public/js/index.js'));
+    });
 };
