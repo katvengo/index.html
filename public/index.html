@@ -1,77 +1,160 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
-    <script src='https://code.jquery.com/jquery.js'></script>
-    <script src="./js/main.js"></script>
-    <link
-        href="https://fonts.googleapis.com/css?family=Farsan|Gloria+Hallelujah|Luckiest+Guy|Permanent+Marker|Poiret+One&display=swap"
-        rel="stylesheet">
-        <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                  <a class="navbar-item" href="/">
-                  </a>
-              
-                  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                  </a>
-                </div>
-              
-                <div id="navbarBasicExample" class="navbar-menu">
-                  <div class="navbar-start">
-                    <a class="navbar-item navLink" href="/">
-                      Home
-                    </a>
-              
-                    <a class="navbar-item navLink" href="/about.html">
-                      About Me
-                    </a>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
+  <script src='https://code.jquery.com/jquery.js'></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Farsan|Gloria+Hallelujah|Luckiest+Guy|Permanent+Marker|Poiret+One&display=swap"
+    rel="stylesheet">
 
-                    <a class="navbar-item navLink" href="/portfolio.html">
-                      Portfolio
-                    </a>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
 
-                    <a class="navbar-item navLink" href="/resume.pdf">
-                      View Resume
-                    </a>
-                  </div>
-              
-                  <div class="navbar-end">
-                  </div>
-                </div>
-              </nav>
+    }
+
+
+    .navbar {
+      width: 100%;
+    }
+
+    .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .container {
+      padding: 12px
+      
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: #333;
+      margin: 20px 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      letter-spacing: 5px;
+      padding: 16px;
+      font-weight: 400px;
+      color: black;
+    }
+
+    footer {
+      height: 25%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-content {
+      flex-grow: 1;
+    }
+
+    h2 {
+    font-size: 20px;
+    font-weight: 600
+  }
+
+    h3 {
+      font-style: italic;
+    }
+
+    .m6 {
+      margin-bottom: 3px;
+    }
+  </style>
+  <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item navLink" href="/">
+          Home
+        </a>
+
+        <a class="navbar-item navLink" href="/portfolio.html">
+          Portfolio
+        </a>
+
+        <a class="navbar-item navLink" href="/resume.pdf">
+          Resume
+        </a>
+      </div>
+
+      <div class="navbar-end">
+      </div>
+    </div>
+  </nav>
 </head>
-            <div class="columns is-multiline is-centered">
-                <div class="column is-half">
-                    
-                        <div class="columns is-centered">
-                        <div class="column is-half" id="customFontBody">
-                        <!-- height="100px"
-                        width="120px" style="text-align: center; margin-top: 45px;" --> <br>
-                        <h1 style="font-size: 25px;" class="webTitle has-text-black-ter">Kat Vengo</h1>
-                            <a href="https://github.com/katvengo">
-                                <img src="./assets/images/github-6-48.png" width="30"></a>
-                       
-                            <a href="https://www.linkedin.com/in/katvengo" target="_blank">
-                                <img src="./assets/images/linkedin-4-48.png" width="30"></a>
-                       
-                            <a href="https://twitter.com/katvengo" target="_blank">
-                                <img src="./assets/images/twitterlogo.png" width="30" class ="greyscale"></a>
-                              </div> 
-                              </div>
-            </div>
-            </div>
-             <p id="typewriter" class="customFontBody" style ="text-align: center; padding-bottom: 100px;"></p>
+
+<body>
+  <div class="main-content">
+    <section class="columns">
+      <div class="column centered-container">
+        <h1>Kat Vengoechea</h1>
+      </div>
+    </section>
+    <hr />
+    <section class="columns">
+      <div class="column">
+
+      </div>
+    </section>
+    <section class="columns">
+      <div class="column">
+        <div class="container">
+          <h2>
+            Software Developer based in San Diego
+          </h2>
+          <br>
+          <p>
+            Passionate Software Developer with nearly 5 years of professional experience, currently excelling as a Senior Software Developer at Capgemini. I attained a Full Stack Web Development certificate from UCSD in 2019, which laid the groundwork for my technical proficiency in creating and optimizing web applications. In my current role, I oversee the complete project lifecycle of Angular-based tools across web and mobile platforms.         </p>
+          </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <h3 class="has-text-centered m6">Find me on these platforms!</h3>
+    <div class="has-text-centered">
+      <a href="https://github.com/katvengo" target="_blank">
+        <img src="./assets/images/github-6-48.png" width="30">
+      </a>
+      <a href="https://www.linkedin.com/in/katvengo" target="_blank">
+        <img src="./assets/images/linkedin-4-48.png" width="30">
+      </a>
+    </div>
+
+
+  </footer>
+</body>
 
 </html>
